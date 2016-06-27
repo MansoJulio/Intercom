@@ -39,3 +39,4 @@ class TestFlattener(unittest.TestCase):
     def test_throws_exception_for_non_integer_value_in_nested_list(self):
         with self.assertRaises(TypeError):
             flattener.Flattener.flatten([1, 2, [3, "text"]])
+            
